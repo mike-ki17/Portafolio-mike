@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Home, User, Code, GraduationCap, Briefcase, Trophy, FolderOpen, Mail } from 'lucide-react';
+import mikeImg from '../../public/mike.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ const Navigation = () => {
             {/* Logo */}
             <div className="flex items-center">
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 flex items-center justify-center text-white font-bold text-lg">
-                <img src="../../public/mike.png" alt="" className='rounded-full'/>
+                <img src={mikeImg} alt="Michael Castro" className='rounded-full'/>
               </div>
               <span className="ml-3 text-xl font-bold text-white">
                 Michael Castro

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown, Download, Mail } from 'lucide-react';
+import mikeImg from '../../public/mike.png';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -39,7 +40,7 @@ const Hero = () => {
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 p-1 ">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-indigo-400 to-cyan-400 flex items-center justify-center text-4xl font-bold text-white shadow-2xl">
-                <img src="../../public/mike.png" alt="" className='rounded-full' />
+                <img src={mikeImg} alt="Michael Castro" className='rounded-full' />
               </div>
             </div>
           </div>

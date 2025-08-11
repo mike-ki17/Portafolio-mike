@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Code, Coffee } from 'lucide-react';
+import mikeImg from '../../public/mike.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,7 +18,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center justify-center mb-6">
             <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 flex items-center justify-center text-white font-bold text-xl mr-4">
-              <img src="../../public/mike.png" alt=""  className='rounded-full'/>
+              <img src={mikeImg} alt="Michael Castro"  className='rounded-full'/>
             </div>
             <div>
               <h3 className="text-2xl font-bold text-white">Michael Castro</h3>

@@ -1,5 +1,10 @@
 import React from 'react';
 import { ExternalLink, Github, Eye, Code, Zap, Users } from 'lucide-react';
+import tatuImg from '../../public/tatu.png';
+import ruletaImg from '../../public/ruleta.png';
+import pizzaImg from '../../public/pizza.png';
+import driuxImg from '../../public/driux.png';
+import moninasImg from '../../public/moninas.png';
 
 interface Project {
   title: string;
@@ -18,7 +23,7 @@ const Portfolio = () => {
     {
       title: "Red Social de Tatuajes",
       description: "Plataforma social completa para artistas de tatuajes con sistema de perfiles, galería de trabajos, sistema de citas y chat en tiempo real. En desarrollo",
-      image: "../../public/tatu.png",
+      image: tatuImg,
       technologies: ["React", "Node.js", "Socket.io", "ASql", "Express", "TypeScript", "Tailwind CSS", "Zustand", "Clean Architecture"],
       category: "Full Stack",
       color: "from-purple-400 to-pink-500",
@@ -28,8 +33,8 @@ const Portfolio = () => {
     },
     {
       title: "Ruleta Cliente-Servidor",
-      description: "Aplicación de juego en línea con arquitectura cliente-servidor, manejo de múltiples usuarios simultáneos y sistema de apuestas en tiempo real.",
-      image: "../../public/ruleta.png",
+      description: "App web diseñada para una resolución específica para una feria de la empresa Sinco Soft como un sistema de premios para los clientes conectada una base de datos en tiempo real.",
+      image: ruletaImg,
       technologies: ["JavaScript", "Python", "Flask", "Sql"],
       category: "Full Stack",
       color: "from-red-400 to-orange-500",
@@ -39,8 +44,8 @@ const Portfolio = () => {
     },
     {
       title: "Gestión Restaurante",
-      description: "Sistema completo de gestión para restaurantes con POS, control de inventario, gestión de mesas y reportes analíticos.",
-      image: "../public/pizza.png",
+      description: "Sistema completo de gestión para restaurantes, con gestion de pedidos",
+      image: pizzaImg,
       technologies: ["React", "MySQL", "Tailwind CSS", "Node.js", "Express"],
       category: "Full Stack",
       color: "from-green-400 to-emerald-500",
@@ -51,7 +56,7 @@ const Portfolio = () => {
     {
       title: "Landing Pages Corporativas",
       description: "Desarrollo de múltiples landing pages optimizadas para conversión con diseño responsive y integración de herramientas de marketing.",
-      image: "../../public/driux.png",
+      image: driuxImg,
       technologies: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Tailwind CSS"],
       category: "Frontend",
       color: "from-cyan-400 to-blue-500",
@@ -61,8 +66,8 @@ const Portfolio = () => {
     },
     {
       title: "E-commerce Multitienda",
-      description: "Plataforma de comercio electrónico multivendedor con sistema de pagos, gestión de productos y panel de administración avanzado.",
-      image: "../../public/moninas.png",
+      description: "Plataforma de comercio electrónico multivendedor y panel de administración.",
+      image: moninasImg,
       technologies: ["React", "Typescript", "Node.js", "Express", "Tailwind CSS"],
       category: "E-commerce",
       color: "from-indigo-400 to-purple-500",
